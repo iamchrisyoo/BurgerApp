@@ -1,0 +1,10 @@
+CREATE DATABASE burger_list_db;
+USE burger_list_db;
+
+CREATE TABLE burgers(
+	id int NOT NULL AUTO_INCREMENT,
+	name varchar(255) NOT NULL,
+	PRIMARY KEY (id)
+);
+
+INSERT INTO burgers (name) VALUES ("Big Mac Burger");
